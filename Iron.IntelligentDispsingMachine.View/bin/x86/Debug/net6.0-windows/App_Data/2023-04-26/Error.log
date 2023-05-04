@@ -1,0 +1,36 @@
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝             
+【日志时间】： 2023-04-26 09:09:56,143              
+【线 程 ID】： [1]                
+【日志级别】： ERROR               
+【出错文件】：F:\工作内容\3.新项目开发\智能调配柜\WPF版本调配机正在开发中\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.ViewModel\MainViewModel.cs             
+【出错行号】：121              
+【出错的类】：Iron.IntelligentDispsingMachine.View.App               
+【日志内容】：Could not find file 'COM7'. 
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝             
+【日志时间】： 2023-04-26 09:11:25,984              
+【线 程 ID】： [1]                
+【日志级别】： ERROR               
+【出错文件】：F:\工作内容\3.新项目开发\智能调配柜\WPF版本调配机正在开发中\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.ViewModel\DrugOutViewModel.cs             
+【出错行号】：618              
+【出错的类】：Iron.IntelligentDispsingMachine.View.App               
+【日志内容】：光幕报警 
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝             
+【日志时间】： 2023-04-26 09:13:41,973              
+【线 程 ID】： [1]                
+【日志级别】： ERROR               
+【出错文件】：F:\工作内容\3.新项目开发\智能调配柜\WPF版本调配机正在开发中\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.ViewModel\MainViewModel.cs             
+【出错行号】：121              
+【出错的类】：Iron.IntelligentDispsingMachine.View.App               
+【日志内容】：Could not find file 'COM7'. 
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝             
+【日志时间】： 2023-04-26 09:17:02,910              
+【线 程 ID】： [1]                
+【日志级别】： ERROR               
+【出错文件】：F:\工作内容\3.新项目开发\智能调配柜\WPF版本调配机正在开发中\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.ViewModel\MainViewModel.cs             
+【出错行号】：121              
+【出错的类】：Iron.IntelligentDispsingMachine.View.App               
+【日志内容】：Could not find file 'COM7'. 

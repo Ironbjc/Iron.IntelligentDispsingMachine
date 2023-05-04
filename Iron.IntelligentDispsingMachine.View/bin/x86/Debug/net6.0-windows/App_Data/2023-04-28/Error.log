@@ -1,0 +1,315 @@
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝             
+【日志时间】： 2023-04-28 09:22:18,902              
+【线 程 ID】： [1]                
+【日志级别】： ERROR               
+【出错文件】：F:\工作内容\3.新项目开发\智能调配柜\WPF版本调配机正在开发中\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.ViewModel\MainViewModel.cs             
+【出错行号】：121              
+【出错的类】：Iron.IntelligentDispsingMachine.View.App               
+【日志内容】：Could not find file 'COM7'. 
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝             
+【日志时间】： 2023-04-28 11:01:00,435              
+【线 程 ID】： [1]                
+【日志级别】： ERROR               
+【出错文件】：F:\工作内容\3.新项目开发\智能调配柜\WPF版本调配机正在开发中\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.ViewModel\MainViewModel.cs             
+【出错行号】：139              
+【出错的类】：Iron.IntelligentDispsingMachine.View.App               
+【日志内容】：PLC连接失败，请检查配置 
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝             
+【日志时间】： 2023-04-28 11:01:36,890              
+【线 程 ID】： [1]                
+【日志级别】： ERROR               
+【出错文件】：F:\工作内容\3.新项目开发\智能调配柜\WPF版本调配机正在开发中\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.ViewModel\MainViewModel.cs             
+【出错行号】：139              
+【出错的类】：Iron.IntelligentDispsingMachine.View.App               
+【日志内容】：PLC连接失败，请检查配置 
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝             
+【日志时间】： 2023-04-28 11:02:15,413              
+【线 程 ID】： [1]                
+【日志级别】： ERROR               
+【出错文件】：F:\工作内容\3.新项目开发\智能调配柜\WPF版本调配机正在开发中\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.ViewModel\MainViewModel.cs             
+【出错行号】：139              
+【出错的类】：Iron.IntelligentDispsingMachine.View.App               
+【日志内容】：PLC连接失败，请检查配置 
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝             
+【日志时间】： 2023-04-28 11:04:35,413              
+【线 程 ID】： [1]                
+【日志级别】： ERROR               
+【出错文件】：F:\工作内容\3.新项目开发\智能调配柜\WPF版本调配机正在开发中\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.ViewModel\MainViewModel.cs             
+【出错行号】：139              
+【出错的类】：Iron.IntelligentDispsingMachine.View.App               
+【日志内容】：PLC连接失败，请检查配置 
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝             
+【日志时间】： 2023-04-28 11:06:19,879              
+【线 程 ID】： [1]                
+【日志级别】： ERROR               
+【出错文件】：F:\工作内容\3.新项目开发\智能调配柜\WPF版本调配机正在开发中\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.ViewModel\MainViewModel.cs             
+【出错行号】：139              
+【出错的类】：Iron.IntelligentDispsingMachine.View.App               
+【日志内容】：PLC连接失败，请检查配置 
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝             
+【日志时间】： 2023-04-28 11:14:02,190              
+【线 程 ID】： [1]                
+【日志级别】： ERROR               
+【出错文件】：F:\工作内容\3.新项目开发\智能调配柜\WPF版本调配机正在开发中\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.ViewModel\MainViewModel.cs             
+【出错行号】：148              
+【出错的类】：Iron.IntelligentDispsingMachine.View.App               
+【日志内容】：PLC连接失败，请检查配置 
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝             
+【日志时间】： 2023-04-28 11:15:07,404              
+【线 程 ID】： [1]                
+【日志级别】： ERROR               
+【出错文件】：F:\工作内容\3.新项目开发\智能调配柜\WPF版本调配机正在开发中\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.ViewModel\MainViewModel.cs             
+【出错行号】：148              
+【出错的类】：Iron.IntelligentDispsingMachine.View.App               
+【日志内容】：PLC连接失败，请检查配置 
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝             
+【日志时间】： 2023-04-28 11:15:31,525              
+【线 程 ID】： [1]                
+【日志级别】： ERROR               
+【出错文件】：F:\工作内容\3.新项目开发\智能调配柜\WPF版本调配机正在开发中\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.ViewModel\MainViewModel.cs             
+【出错行号】：148              
+【出错的类】：Iron.IntelligentDispsingMachine.View.App               
+【日志内容】：PLC连接失败，请检查配置 
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝             
+【日志时间】： 2023-04-28 11:15:52,431              
+【线 程 ID】： [1]                
+【日志级别】： ERROR               
+【出错文件】：F:\工作内容\3.新项目开发\智能调配柜\WPF版本调配机正在开发中\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.ViewModel\MainViewModel.cs             
+【出错行号】：148              
+【出错的类】：Iron.IntelligentDispsingMachine.View.App               
+【日志内容】：PLC连接失败，请检查配置 
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝             
+【日志时间】： 2023-04-28 11:16:26,358              
+【线 程 ID】： [1]                
+【日志级别】： ERROR               
+【出错文件】：F:\工作内容\3.新项目开发\智能调配柜\WPF版本调配机正在开发中\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.ViewModel\MainViewModel.cs             
+【出错行号】：148              
+【出错的类】：Iron.IntelligentDispsingMachine.View.App               
+【日志内容】：PLC连接失败，请检查配置 
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝             
+【日志时间】： 2023-04-28 11:16:47,714              
+【线 程 ID】： [1]                
+【日志级别】： ERROR               
+【出错文件】：F:\工作内容\3.新项目开发\智能调配柜\WPF版本调配机正在开发中\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.ViewModel\MainViewModel.cs             
+【出错行号】：148              
+【出错的类】：Iron.IntelligentDispsingMachine.View.App               
+【日志内容】：PLC连接失败，请检查配置 
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝             
+【日志时间】： 2023-04-28 11:17:28,603              
+【线 程 ID】： [1]                
+【日志级别】： ERROR               
+【出错文件】：F:\工作内容\3.新项目开发\智能调配柜\WPF版本调配机正在开发中\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.ViewModel\MainViewModel.cs             
+【出错行号】：148              
+【出错的类】：Iron.IntelligentDispsingMachine.View.App               
+【日志内容】：PLC连接失败，请检查配置 
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝             
+【日志时间】： 2023-04-28 11:17:55,156              
+【线 程 ID】： [1]                
+【日志级别】： ERROR               
+【出错文件】：F:\工作内容\3.新项目开发\智能调配柜\WPF版本调配机正在开发中\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.ViewModel\MainViewModel.cs             
+【出错行号】：148              
+【出错的类】：Iron.IntelligentDispsingMachine.View.App               
+【日志内容】：PLC连接失败，请检查配置 
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝             
+【日志时间】： 2023-04-28 11:18:20,595              
+【线 程 ID】： [1]                
+【日志级别】： ERROR               
+【出错文件】：F:\工作内容\3.新项目开发\智能调配柜\WPF版本调配机正在开发中\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.ViewModel\MainViewModel.cs             
+【出错行号】：148              
+【出错的类】：Iron.IntelligentDispsingMachine.View.App               
+【日志内容】：PLC连接失败，请检查配置 
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝             
+【日志时间】： 2023-04-28 11:19:32,315              
+【线 程 ID】： [1]                
+【日志级别】： ERROR               
+【出错文件】：F:\工作内容\3.新项目开发\智能调配柜\WPF版本调配机正在开发中\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.ViewModel\MainViewModel.cs             
+【出错行号】：148              
+【出错的类】：Iron.IntelligentDispsingMachine.View.App               
+【日志内容】：PLC连接失败，请检查配置 
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝             
+【日志时间】： 2023-04-28 11:24:58,074              
+【线 程 ID】： [1]                
+【日志级别】： ERROR               
+【出错文件】：F:\工作内容\3.新项目开发\智能调配柜\WPF版本调配机正在开发中\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.ViewModel\MainViewModel.cs             
+【出错行号】：148              
+【出错的类】：Iron.IntelligentDispsingMachine.View.App               
+【日志内容】：PLC连接失败，请检查配置 
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝             
+【日志时间】： 2023-04-28 11:27:35,631              
+【线 程 ID】： [1]                
+【日志级别】： ERROR               
+【出错文件】：F:\工作内容\3.新项目开发\智能调配柜\WPF版本调配机正在开发中\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.ViewModel\MainViewModel.cs             
+【出错行号】：155              
+【出错的类】：Iron.IntelligentDispsingMachine.View.App               
+【日志内容】：PLC连接失败，请检查配置 
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝             
+【日志时间】： 2023-04-28 11:27:53,870              
+【线 程 ID】： [1]                
+【日志级别】： ERROR               
+【出错文件】：F:\工作内容\3.新项目开发\智能调配柜\WPF版本调配机正在开发中\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.ViewModel\MainViewModel.cs             
+【出错行号】：155              
+【出错的类】：Iron.IntelligentDispsingMachine.View.App               
+【日志内容】：PLC连接失败，请检查配置 
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝             
+【日志时间】： 2023-04-28 12:48:48,742              
+【线 程 ID】： [1]                
+【日志级别】： ERROR               
+【出错文件】：F:\工作内容\3.新项目开发\智能调配柜\WPF版本调配机正在开发中\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.ViewModel\MainViewModel.cs             
+【出错行号】：155              
+【出错的类】：Iron.IntelligentDispsingMachine.View.App               
+【日志内容】：PLC连接失败，请检查配置 
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝             
+【日志时间】： 2023-04-28 12:50:28,639              
+【线 程 ID】： [1]                
+【日志级别】： ERROR               
+【出错文件】：F:\工作内容\3.新项目开发\智能调配柜\WPF版本调配机正在开发中\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.ViewModel\MainViewModel.cs             
+【出错行号】：155              
+【出错的类】：Iron.IntelligentDispsingMachine.View.App               
+【日志内容】：PLC连接失败，请检查配置 
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝             
+【日志时间】： 2023-04-28 13:05:07,236              
+【线 程 ID】： [1]                
+【日志级别】： ERROR               
+【出错文件】：F:\工作内容\3.新项目开发\智能调配柜\WPF版本调配机正在开发中\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.ViewModel\MainViewModel.cs             
+【出错行号】：155              
+【出错的类】：Iron.IntelligentDispsingMachine.View.App               
+【日志内容】：PLC连接失败，请检查配置 
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝             
+【日志时间】： 2023-04-28 13:22:00,459              
+【线 程 ID】： [1]                
+【日志级别】： ERROR               
+【出错文件】：F:\工作内容\3.新项目开发\智能调配柜\WPF版本调配机正在开发中\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.ViewModel\MainViewModel.cs             
+【出错行号】：155              
+【出错的类】：Iron.IntelligentDispsingMachine.View.App               
+【日志内容】：PLC连接失败，请检查配置 
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝             
+【日志时间】： 2023-04-28 13:26:00,171              
+【线 程 ID】： [1]                
+【日志级别】： ERROR               
+【出错文件】：F:\工作内容\3.新项目开发\智能调配柜\WPF版本调配机正在开发中\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.ViewModel\MainViewModel.cs             
+【出错行号】：155              
+【出错的类】：Iron.IntelligentDispsingMachine.View.App               
+【日志内容】：PLC连接失败，请检查配置 
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝             
+【日志时间】： 2023-04-28 13:26:45,337              
+【线 程 ID】： [1]                
+【日志级别】： ERROR               
+【出错文件】：F:\工作内容\3.新项目开发\智能调配柜\WPF版本调配机正在开发中\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.ViewModel\MainViewModel.cs             
+【出错行号】：155              
+【出错的类】：Iron.IntelligentDispsingMachine.View.App               
+【日志内容】：PLC连接失败，请检查配置 
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝             
+【日志时间】： 2023-04-28 13:27:15,563              
+【线 程 ID】： [1]                
+【日志级别】： ERROR               
+【出错文件】：F:\工作内容\3.新项目开发\智能调配柜\WPF版本调配机正在开发中\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.ViewModel\DrugOutViewModel.cs             
+【出错行号】：662              
+【出错的类】：Iron.IntelligentDispsingMachine.View.App               
+【日志内容】：光幕报警 
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝             
+【日志时间】： 2023-04-28 13:29:44,665              
+【线 程 ID】： [1]                
+【日志级别】： ERROR               
+【出错文件】：F:\工作内容\3.新项目开发\智能调配柜\WPF版本调配机正在开发中\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.ViewModel\MainViewModel.cs             
+【出错行号】：155              
+【出错的类】：Iron.IntelligentDispsingMachine.View.App               
+【日志内容】：PLC连接失败，请检查配置 
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝             
+【日志时间】： 2023-04-28 13:31:06,111              
+【线 程 ID】： [1]                
+【日志级别】： ERROR               
+【出错文件】：F:\工作内容\3.新项目开发\智能调配柜\WPF版本调配机正在开发中\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.ViewModel\MainViewModel.cs             
+【出错行号】：155              
+【出错的类】：Iron.IntelligentDispsingMachine.View.App               
+【日志内容】：PLC连接失败，请检查配置 
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝             
+【日志时间】： 2023-04-28 13:34:03,485              
+【线 程 ID】： [1]                
+【日志级别】： ERROR               
+【出错文件】：F:\工作内容\3.新项目开发\智能调配柜\WPF版本调配机正在开发中\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.ViewModel\MainViewModel.cs             
+【出错行号】：155              
+【出错的类】：Iron.IntelligentDispsingMachine.View.App               
+【日志内容】：PLC连接失败，请检查配置 
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝             
+【日志时间】： 2023-04-28 13:34:11,133              
+【线 程 ID】： [1]                
+【日志级别】： ERROR               
+【出错文件】：F:\工作内容\3.新项目开发\智能调配柜\WPF版本调配机正在开发中\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.ViewModel\DrugOutViewModel.cs             
+【出错行号】：662              
+【出错的类】：Iron.IntelligentDispsingMachine.View.App               
+【日志内容】：光幕报警 
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝             
+【日志时间】： 2023-04-28 14:00:22,208              
+【线 程 ID】： [1]                
+【日志级别】： ERROR               
+【出错文件】：F:\工作内容\3.新项目开发\智能调配柜\WPF版本调配机正在开发中\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.ViewModel\MainViewModel.cs             
+【出错行号】：155              
+【出错的类】：Iron.IntelligentDispsingMachine.View.App               
+【日志内容】：PLC连接失败，请检查配置 
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝             
+【日志时间】： 2023-04-28 14:13:45,493              
+【线 程 ID】： [1]                
+【日志级别】： ERROR               
+【出错文件】：F:\工作内容\3.新项目开发\智能调配柜\WPF版本调配机正在开发中\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.ViewModel\MainViewModel.cs             
+【出错行号】：155              
+【出错的类】：Iron.IntelligentDispsingMachine.View.App               
+【日志内容】：PLC连接失败，请检查配置 
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝             
+【日志时间】： 2023-04-28 14:14:22,024              
+【线 程 ID】： [1]                
+【日志级别】： ERROR               
+【出错文件】：F:\工作内容\3.新项目开发\智能调配柜\WPF版本调配机正在开发中\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.ViewModel\MainViewModel.cs             
+【出错行号】：155              
+【出错的类】：Iron.IntelligentDispsingMachine.View.App               
+【日志内容】：PLC连接失败，请检查配置 
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝             
+【日志时间】： 2023-04-28 14:20:11,590              
+【线 程 ID】： [1]                
+【日志级别】： ERROR               
+【出错文件】：F:\工作内容\3.新项目开发\智能调配柜\WPF版本调配机正在开发中\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.ViewModel\MainViewModel.cs             
+【出错行号】：155              
+【出错的类】：Iron.IntelligentDispsingMachine.View.App               
+【日志内容】：PLC连接失败，请检查配置 
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝             
+【日志时间】： 2023-04-28 14:24:11,581              
+【线 程 ID】： [1]                
+【日志级别】： ERROR               
+【出错文件】：F:\工作内容\3.新项目开发\智能调配柜\WPF版本调配机正在开发中\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.ViewModel\MainViewModel.cs             
+【出错行号】：155              
+【出错的类】：Iron.IntelligentDispsingMachine.View.App               
+【日志内容】：PLC连接失败，请检查配置 

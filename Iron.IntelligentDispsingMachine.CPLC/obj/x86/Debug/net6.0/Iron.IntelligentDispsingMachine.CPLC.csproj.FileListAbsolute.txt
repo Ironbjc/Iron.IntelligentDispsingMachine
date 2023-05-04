@@ -1,0 +1,12 @@
+F:\工作内容\3.新项目开发\智能调配柜\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.CPLC\bin\x86\Debug\net6.0\Iron.IntelligentDispsingMachine.CPLC.deps.json
+F:\工作内容\3.新项目开发\智能调配柜\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.CPLC\bin\x86\Debug\net6.0\Iron.IntelligentDispsingMachine.CPLC.dll
+F:\工作内容\3.新项目开发\智能调配柜\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.CPLC\bin\x86\Debug\net6.0\Iron.IntelligentDispsingMachine.CPLC.pdb
+F:\工作内容\3.新项目开发\智能调配柜\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.CPLC\obj\x86\Debug\net6.0\Iron.IntelligentDispsingMachine.CPLC.csproj.AssemblyReference.cache
+F:\工作内容\3.新项目开发\智能调配柜\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.CPLC\obj\x86\Debug\net6.0\Iron.IntelligentDispsingMachine.CPLC.GeneratedMSBuildEditorConfig.editorconfig
+F:\工作内容\3.新项目开发\智能调配柜\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.CPLC\obj\x86\Debug\net6.0\Iron.IntelligentDispsingMachine.CPLC.AssemblyInfoInputs.cache
+F:\工作内容\3.新项目开发\智能调配柜\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.CPLC\obj\x86\Debug\net6.0\Iron.IntelligentDispsingMachine.CPLC.AssemblyInfo.cs
+F:\工作内容\3.新项目开发\智能调配柜\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.CPLC\obj\x86\Debug\net6.0\Iron.IntelligentDispsingMachine.CPLC.csproj.CoreCompileInputs.cache
+F:\工作内容\3.新项目开发\智能调配柜\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.CPLC\obj\x86\Debug\net6.0\Iron.IntelligentDispsingMachine.CPLC.dll
+F:\工作内容\3.新项目开发\智能调配柜\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.CPLC\obj\x86\Debug\net6.0\refint\Iron.IntelligentDispsingMachine.CPLC.dll
+F:\工作内容\3.新项目开发\智能调配柜\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.CPLC\obj\x86\Debug\net6.0\Iron.IntelligentDispsingMachine.CPLC.pdb
+F:\工作内容\3.新项目开发\智能调配柜\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.CPLC\obj\x86\Debug\net6.0\ref\Iron.IntelligentDispsingMachine.CPLC.dll

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Dialogs\LedSetView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Dialogs\PreSelectionDialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Dialogs\UpdateMedCountDialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\DrugCheckView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\DrugInView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\DrugMaintainView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\DrugOutView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\ReportView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\SystemDebug.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\MainView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Dialogs\LedSetView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Dialogs\PreSelectionDialog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Dialogs\UpdateMedCountDialog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\DrugCheckView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\DrugInView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\DrugMaintainView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\DrugOutView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\ReportView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\SystemDebug.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\MainView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

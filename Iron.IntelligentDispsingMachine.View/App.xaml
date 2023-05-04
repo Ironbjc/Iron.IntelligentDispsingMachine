@@ -1,0 +1,12 @@
+﻿<Application x:Class="Iron.IntelligentDispsingMachine.View.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Iron.IntelligentDispsingMachine.View"
+             xmlns:vm="clr-namespace:Iron.IntelligentDispsingMachine.ViewModel;assembly=Iron.IntelligentDispsingMachine.ViewModel"
+             StartupUri="Windows/MainView.xaml">
+    <Application.Resources>
+        <vm:ViewModelLocator x:Key="locator"/>
+        <FontFamily x:Key="Iconfont">pack://application:,,,/Iron.IntelligentDispsingMachine.Assets;component/Fonts/#iconfont</FontFamily>
+        <FontFamily x:Key="DigitalDisplay">pack://application:,,,/Iron.IntelligentDispsingMachine.Assets;component/Fonts/#Digital Display</FontFamily>
+    </Application.Resources>
+</Application>

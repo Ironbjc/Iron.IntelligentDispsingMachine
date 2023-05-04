@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+  <Connstr>
+  <!--药房数据库连接字符串-->
+  <!-- <DBName>昆山西部门诊西药</DBName> -->
+  <DBName>Hospital_Pharmacy</DBName>
+  <DBIP>.</DBIP>
+  <USERID>sa</USERID>
+  <!-- <PWD>iron123!</PWD> -->
+  <PWD>123456</PWD>
+  <!--设置药柜ID号-->
+  <MachineID>01</MachineID>
+  <!--设置柜体层数八层或者九层-->
+  <!--设置系统调试码-->
+  <ConfirmCode>8888</ConfirmCode>
+  <!--设置伺服电机端口-->
+  <ServoPortCom>COM8</ServoPortCom>
+  <!--设置系统射灯端口-->
+  <DPortCom>COM21</DPortCom>
+  <ArkLayer>九层</ArkLayer>
+  <!--出药界面显示: 1:显示本设备的药品，2：包含其他设备中的药品，3：包含所有药品-->
+  <MedINFlag>1</MedINFlag>
+  <!--电机自动运行速度-->
+  <MotorAutoSpeed>8000</MotorAutoSpeed>
+  <!--电机手动运行高速度-->
+  <MotorHandSpeed>1000</MotorHandSpeed>
+  <!--电机回原点速度-->
+  <MotorZeroSpeed>1500</MotorZeroSpeed>
+  <!--出药模式，0代表扫码出库-->
+  <MedOutMode>1</MedOutMode>
+  <!--扫码枪串口号-->
+  <ScanCom>COM7</ScanCom>
+  </Connstr>
+</Config>

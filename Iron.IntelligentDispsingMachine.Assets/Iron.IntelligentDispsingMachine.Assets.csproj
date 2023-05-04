@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <Platforms>AnyCPU;x86</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Fonts\digital_display.ttf" />
+    <None Remove="Fonts\iconfont.ttf" />
+    <None Remove="Images\艾隆.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Remove="Styles\ButtonStyles.xaml" />
+    <Page Remove="Styles\ComboBoxStyles.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Fonts\digital_display.ttf" />
+    <Resource Include="Fonts\iconfont.ttf" />
+    <Resource Include="Images\艾隆.png" />
+    <Resource Include="Styles\ButtonStyles.xaml" />
+    <Resource Include="Styles\ComboBoxStyles.xaml" />
+  </ItemGroup>
+
+</Project>

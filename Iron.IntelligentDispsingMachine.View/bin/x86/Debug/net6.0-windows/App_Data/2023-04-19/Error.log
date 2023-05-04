@@ -1,0 +1,46 @@
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝             
+【日志时间】： 2023-04-19 09:00:47,178              
+【线 程 ID】： [1]                
+【日志级别】： ERROR               
+【出错文件】：F:\工作内容\3.新项目开发\智能调配柜\WPF版本调配机正在开发中\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.ViewModel\MainViewModel.cs             
+【出错行号】：119              
+【出错的类】：Iron.IntelligentDispsingMachine.View.App               
+【日志内容】：Could not find file 'COM7'. 
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝             
+【日志时间】： 2023-04-19 09:01:57,320              
+【线 程 ID】： [1]                
+【日志级别】： ERROR               
+【出错文件】：F:\工作内容\3.新项目开发\智能调配柜\WPF版本调配机正在开发中\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.ViewModel\MainViewModel.cs             
+【出错行号】：121              
+【出错的类】：Iron.IntelligentDispsingMachine.View.App               
+【日志内容】：Could not find file 'COM7'. 
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝             
+【日志时间】： 2023-04-19 09:02:13,481              
+【线 程 ID】： [1]                
+【日志级别】： ERROR               
+【出错文件】：F:\工作内容\3.新项目开发\智能调配柜\WPF版本调配机正在开发中\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.ViewModel\DrugOutViewModel.cs             
+【出错行号】：259              
+【出错的类】：Iron.IntelligentDispsingMachine.View.App               
+【日志内容】：出药界面加载失败:数据库打开失败失败:无法打开登录所请求的数据库 "Hospital_Pharmacy"。登录失败。
+用户 'sa' 登录失败。 
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝             
+【日志时间】： 2023-04-19 09:03:06,157              
+【线 程 ID】： [1]                
+【日志级别】： ERROR               
+【出错文件】：F:\工作内容\3.新项目开发\智能调配柜\WPF版本调配机正在开发中\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.ViewModel\MainViewModel.cs             
+【出错行号】：121              
+【出错的类】：Iron.IntelligentDispsingMachine.View.App               
+【日志内容】：Could not find file 'COM7'. 
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝             
+【日志时间】： 2023-04-19 09:08:02,858              
+【线 程 ID】： [1]                
+【日志级别】： ERROR               
+【出错文件】：F:\工作内容\3.新项目开发\智能调配柜\WPF版本调配机正在开发中\Iron.IntelligentDispsingMachine\Iron.IntelligentDispsingMachine.ViewModel\MainViewModel.cs             
+【出错行号】：121              
+【出错的类】：Iron.IntelligentDispsingMachine.View.App               
+【日志内容】：Could not find file 'COM7'. 

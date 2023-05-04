@@ -1,0 +1,118 @@
+﻿<Window x:Class="Iron.IntelligentDispsingMachine.View.Dialogs.LedSetView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:c="clr-namespace:CalcBinding;assembly=CalcBinding"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Iron.IntelligentDispsingMachine.View.Dialogs"
+        mc:Ignorable="d"
+         FontFamily="Microsoft YaHei" FontSize="12" FontWeight="ExtraLight"
+        WindowStartupLocation="CenterOwner" 
+        Title="LedSetView" Height="450" Width="800"
+          DataContext="{Binding Source={StaticResource locator}, Path=LedSetViewModel}">
+    <Window.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+            <GradientStop Color="#DCEDfa" Offset="0"/>
+            <GradientStop Color="#F7F9FA" Offset="0.5"/>
+            <GradientStop Color="LightBlue" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/Iron.IntelligentDispsingMachine.Assets;component/Styles/Buttonstyles.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/Iron.IntelligentDispsingMachine.Assets;component/Styles/ComboBoxStyles.xaml"/>
+              
+            </ResourceDictionary.MergedDictionaries>
+           
+        </ResourceDictionary>
+    </Window.Resources>
+    <WindowChrome.WindowChrome>
+        <WindowChrome GlassFrameThickness="1"/>
+    </WindowChrome.WindowChrome>
+    <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="4*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <UniformGrid Rows="1" HorizontalAlignment="Left">
+                <TextBlock Text="电路板ID:" FontSize="30" HorizontalAlignment="Right" FontWeight="Bold"  Margin="20,0,0,0" VerticalAlignment="Center"/>
+                <ComboBox SelectedIndex="{Binding PCBIdIndex}" Style="{StaticResource PropComboBoxStyle}"  Margin="10,0,0,0" FontSize="30" FontWeight="Bold" VerticalAlignment="Center">
+                    <ComboBoxItem Content="1"/>
+                    <ComboBoxItem Content="2"/>
+                    <ComboBoxItem Content="3"/>
+                    <ComboBoxItem Content="4"/>
+                    <ComboBoxItem Content="5"/>
+                    <ComboBoxItem Content="6"/>
+                    <ComboBoxItem Content="7"/>
+                    <ComboBoxItem Content="8"/>
+                    <ComboBoxItem Content="9"/>
+                    <ComboBoxItem Content="10"/>
+                    <ComboBoxItem Content="11"/>
+                    <ComboBoxItem Content="12"/>
+                </ComboBox>
+            </UniformGrid>
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="8*"/>
+                </Grid.ColumnDefinitions>
+                <UniformGrid Columns="1" Margin="0,0,0,15">
+                    <CheckBox IsChecked="{Binding FirstCheck}" Content="01" FontSize="30" FontWeight="Bold" HorizontalContentAlignment="Center"  VerticalContentAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    <CheckBox IsChecked="{Binding SecondCheck}" Content="02" HorizontalAlignment="Center" FontSize="30" FontWeight="Bold"  VerticalAlignment="Center" VerticalContentAlignment="Center"/>
+                    <CheckBox IsChecked="{Binding ThirdCheck}" Content="03" HorizontalAlignment="Center" FontSize="30" FontWeight="Bold"  VerticalAlignment="Center" VerticalContentAlignment="Center"/>
+                </UniformGrid>
+                <ItemsControl Grid.Column="1" ItemsSource="{Binding CabineModels}">
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <UniformGrid Rows="1"/>
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Border Margin="10" BorderThickness="1" BorderBrush="Black" >
+                                <ItemsControl ItemsSource="{Binding ledModels}" Name="it">
+                                    <ItemsControl.ItemsPanel>
+                                        <ItemsPanelTemplate>
+                                            <UniformGrid  Columns="3"/>
+                                        </ItemsPanelTemplate>
+                                    </ItemsControl.ItemsPanel>
+                                    <ItemsControl.ItemTemplate>
+                                        <DataTemplate>
+                                            <Grid>
+                                                <StackPanel Orientation="Vertical">
+                                                    <TextBlock Text="{Binding X}" HorizontalAlignment="Center"/>
+                                                    <Border Name="bor" CornerRadius="20" Width="40" Height="40" Background="Gray">
+
+                                                    </Border>
+                                                    <TextBlock Text="{Binding Y}" HorizontalAlignment="Center"/>
+                                                </StackPanel>
+
+                                            </Grid>
+                                            <DataTemplate.Triggers>
+                                                <DataTrigger Binding="{Binding IsLight}" Value="true">
+                                                    <Setter TargetName="bor" Property="Background" Value="red"/>
+                                                </DataTrigger>
+                                            </DataTemplate.Triggers>
+                                        </DataTemplate>
+                                    </ItemsControl.ItemTemplate>
+                                </ItemsControl>
+                            </Border>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+
+                </ItemsControl>
+            </Grid>
+            <UniformGrid Grid.Row="2"   Rows="1">
+                <Button Command="{Binding OpenLedByChoose}" FontSize="20" FontWeight="Bold" Foreground="Black" Content="选中亮灯" Margin="10" Background="Red" Style="{StaticResource NormalButtonStyle}"/>
+                <Button Command="{Binding OpenAllLed}" FontSize="20" FontWeight="Bold" Foreground="Black" Content="全部亮灯" Margin="10" Background="Green" Style="{StaticResource NormalButtonStyle}"/>
+                <Button Command="{Binding LightOffAllLed}" FontSize="20" FontWeight="Bold" Foreground="Black" Content="全部灭灯" Margin="10" Background="Yellow" Style="{StaticResource NormalButtonStyle}"/>
+                <Button Command="{Binding SetID}" FontSize="20" FontWeight="Bold" Foreground="Black" Content="烧制ID" Margin="10" Background="Orange" Style="{StaticResource NormalButtonStyle}" />
+                <Button FontSize="20" FontWeight="Bold" Foreground="Black" Content="退出" Margin="10" Background="Pink" Style="{StaticResource NormalButtonStyle}" Click="Button_Click"/>
+            </UniformGrid>
+        </Grid>
+       
+    </Grid>
+</Window>

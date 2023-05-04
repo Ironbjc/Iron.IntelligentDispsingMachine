@@ -1,0 +1,98 @@
+﻿<Window x:Class="Iron.IntelligentDispsingMachine.View.Dialogs.UpdateMedCountDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Iron.IntelligentDispsingMachine.View.Dialogs"
+        xmlns:keyboard="clr-namespace:TouchKeyboard.Keyboard;assembly=TouchScreenBoard"
+        mc:Ignorable="d"
+         FontFamily="Microsoft YaHei" FontSize="12" FontWeight="ExtraLight"
+        WindowStartupLocation="CenterOwner" 
+        WindowStyle="None"
+        Title="UpdateMedCountDialog" Height="500" Width="700">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+
+                <ResourceDictionary Source="pack://application:,,,/Iron.IntelligentDispsingMachine.Assets;component/Styles/Buttonstyles.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/Iron.IntelligentDispsingMachine.Assets;component/Styles/ComboBoxStyles.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/Iron.IntelligentDispsingMachine.Assets;component/Styles/DataGridStyle.xaml"/>
+                <ResourceDictionary>
+                    <Style TargetType="GroupBox">
+                        <Setter Property="Margin" Value="0,5"/>
+                        <Setter Property="Template">
+
+                            <Setter.Value>
+                                <ControlTemplate TargetType="GroupBox">
+                                    <Grid>
+                                        <Border Background="#55FFFFFF" CornerRadius="6" BorderBrush="#16a1ff" BorderThickness="1"/>
+
+                                        <ContentPresenter/>
+                                        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="8">
+                                            <Border Background="#16a1ff" Width="3" Height="10" CornerRadius="2" VerticalAlignment="Center"/>
+                                            <TextBlock Text="{Binding Header,RelativeSource={RelativeSource Mode=TemplatedParent}}" Margin="5,0"
+                                                       FontSize="{TemplateBinding FontSize}" FontWeight="Bold" Foreground="#888"/>
+                                            <Border Background="#AA16a1ff" Width="3" Height="8" CornerRadius="2" VerticalAlignment="Center"/>
+                                            <Border Background="#7716a1ff" Width="3" Height="8" CornerRadius="2" Margin="3,0" VerticalAlignment="Center"/>
+                                            <Border Background="#4416a1ff" Width="3" Height="8" CornerRadius="2" VerticalAlignment="Center"/>
+                                            <Border Background="#1116a1ff" Width="3" Height="8" CornerRadius="2" Margin="3,0" VerticalAlignment="Center"/>
+                                        </StackPanel>
+                                        <Path Data="M0,10 0,6A6 6 0 0 1 6 0L 10 0" Stroke="#b4fee7" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="1"/>
+                                        <Path Data="M0,10 6,10A6 6 0 0 0 10 4L 10 0" Stroke="#b4fee7" VerticalAlignment="Bottom" HorizontalAlignment="Right"/>
+                                    </Grid>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                    <Style TargetType="TextBox">
+                        <Setter Property="VerticalContentAlignment" Value="Center"/>
+
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="TextBox">
+                                    <Border BorderBrush="Black" BorderThickness="1" CornerRadius="3" MinHeight="26" Background="White" Name="bor">
+                                        <ScrollViewer Name="PART_ContentHost" Margin="0"/>
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsKeyboardFocused" Value="True">
+                                            <Setter TargetName="bor" Property="BorderBrush" Value="#16a1ff"/>
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+       
+    </Window.Resources>
+    <WindowChrome.WindowChrome>
+        <WindowChrome GlassFrameThickness="-1"/>
+    </WindowChrome.WindowChrome>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="药品基本信息" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock Grid.Row="1" Text="药品名称" VerticalAlignment="Center" FontSize="25" FontWeight="Bold"
+                                       HorizontalAlignment="Left" Margin="5,0"/>
+        <TextBox IsReadOnly="True" Grid.Row="1" FontSize="25" Text="{Binding CurrentMed.MedName}"  Margin="128,0,5,0" VerticalAlignment="Center"/>
+
+        <TextBlock Grid.Row="2" Text="药品位置" VerticalAlignment="Center" FontSize="25" FontWeight="Bold"
+                                       HorizontalAlignment="Left" Margin="5,0"/>
+        <TextBox IsReadOnly="True" Grid.Row="2" FontSize="25" Text="{Binding CurrentMed.MedPos}"  Margin="128,0,5,0" VerticalAlignment="Center"/>
+
+        <TextBlock Grid.Row="3" Text="药品位置" VerticalAlignment="Center" FontSize="25" FontWeight="Bold"
+                                       HorizontalAlignment="Left" Margin="5,0"/>
+        <TextBox  keyboard:TouchScreenKeypad.TouchScreenKeypad="True"  Grid.Row="3" FontSize="25"  Text="{Binding CurrentMed.MedNowAMT,UpdateSourceTrigger=Default}"  Margin="128,0,5,0" VerticalAlignment="Center"/>
+        <UniformGrid Rows="1" Grid.Row="4" >
+            <Button FontSize="25" FontWeight="Bold" Content="确定" Command="{Binding UpdateCommand}" CommandParameter="{Binding RelativeSource={RelativeSource AncestorType=Window}}" Margin="10" Background="Orange" Style="{StaticResource NormalButtonStyle}"/>
+            <Button FontSize="25" FontWeight="Bold" Content="取消" Command="{Binding CancelCommand}" CommandParameter="{Binding RelativeSource={RelativeSource AncestorType=Window}}" Margin="10" Background="Red" Style="{StaticResource CancelButtonStyle}"/>
+        </UniformGrid>
+    </Grid>
+</Window>
