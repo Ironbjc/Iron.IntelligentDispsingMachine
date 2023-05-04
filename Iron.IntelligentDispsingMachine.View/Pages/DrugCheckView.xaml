@@ -356,9 +356,9 @@
                             <ColumnDefinition/>
                             <ColumnDefinition/>
                         </Grid.ColumnDefinitions>
-                        <Button Content="上层" Style="{StaticResource NormalButtonStyle}" Margin="5"/>
-                        <Button Content="中层" Grid.Column="1" Style="{StaticResource NormalButtonStyle}" Margin="5"/>
-                        <Button Content="下层" Grid.Column="2" Style="{StaticResource NormalButtonStyle}" Margin="5"/>
+                        <Button Content="上层" Command="{Binding RunMoto}" Style="{StaticResource NormalButtonStyle}" Margin="5"/>
+                            <Button Content="中层" Command="{Binding RunMoto}" Grid.Column="1" Style="{StaticResource NormalButtonStyle}" Margin="5"/>
+                            <Button Content="下层" Command="{Binding RunMoto}" Grid.Column="2" Style="{StaticResource NormalButtonStyle}" Margin="5"/>
                     </Grid>
                 </GroupBox>
                 <GroupBox Header="右电机" FontSize="20" Margin="5" Grid.Column="1">
